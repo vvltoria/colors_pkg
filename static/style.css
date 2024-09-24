@@ -1,0 +1,98 @@
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 400%;
+    height: 4px;
+    background: #ddd;
+    outline: none;
+    opacity: 1;
+    transition: opacity 0.2s;
+    border-radius: 5px;
+}
+body {
+    background-color: darkslategray;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-family: "Baloo Bhaijaan";
+    font-size: 300%;
+}
+h2 {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-family: "Baloo Chettan 2";
+    font-size: 200%;
+}
+h3 {
+   color: lightgoldenrodyellow;
+    font-family: "Baloo Chettan 2";
+    font-size: 150%;
+    text-align: left;
+    margin-left: 20px; /
+}
+
+#colorPicker {
+    font-size: 150%;
+    height: 60px;
+    width: 150px;
+    margin-top: 10px;
+}
+#shape {
+    position: absolute;
+    margin-bottom: 20px;
+    width: 200px;
+    border-style: solid;
+    height: 200px;
+    background-color: #000000;
+    margin-top: 20px;
+    border-radius: 10px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.color-inputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.color-input-group input[type="text"] {
+    width: 80px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.color-input-group input[type="range"] {
+   width: 150px;
+    margin-right: 20px;
+}
+
+.color-input-group button {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.color-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+    margin-left: 20px;
+
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
